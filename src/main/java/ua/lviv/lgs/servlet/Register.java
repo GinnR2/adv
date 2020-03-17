@@ -16,6 +16,8 @@ import ua.lviv.lgs.service.UserService;
 import ua.lviv.lgs.service.impl.UserServiceImpl;
 
 @WebServlet("/Register")
+
+//Registration servlet
 public class Register extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
