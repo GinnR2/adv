@@ -22,8 +22,9 @@ public class Logout extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		if(session != null) {
+			//revolutionary feature
+			LOG.debug("exit" + session.getId().toString());
 			session.invalidate();
-			LOG.debug("exit");
 		}
 		
 		response.setContentType("text");
