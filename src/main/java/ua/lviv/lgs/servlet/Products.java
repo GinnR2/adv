@@ -16,7 +16,7 @@ import ua.lviv.lgs.service.ProductService;
 import ua.lviv.lgs.service.impl.ProductServiceImpl;
 
 /**
- * Servlet implementation class Products
+ * get products servlet
  */
 @WebServlet("/products")
 public class Products extends HttpServlet {

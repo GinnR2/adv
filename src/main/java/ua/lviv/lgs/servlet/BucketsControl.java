@@ -23,7 +23,7 @@ import ua.lviv.lgs.service.impl.BucketServiceImpl;
 import ua.lviv.lgs.service.impl.ProductServiceImpl;
 
 /**
- * Servlet implementation class BucketsControl
+ * bucket list servlet
  */
 @WebServlet("/buckets")
 public class BucketsControl extends HttpServlet {

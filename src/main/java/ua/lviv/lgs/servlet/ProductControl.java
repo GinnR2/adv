@@ -14,7 +14,7 @@ import ua.lviv.lgs.service.ProductService;
 import ua.lviv.lgs.service.impl.ProductServiceImpl;
 
 /**
- * Servlet implementation class AddPeriodical
+ * products crud servlet
  */
 @WebServlet("/product")
 public class ProductControl extends HttpServlet {
