@@ -13,6 +13,7 @@ import org.apache.log4j.Logger;
 
 import ua.lviv.lgs.dao.impl.UserDaoImpl;
 
+//drop session servlet
 @WebServlet("/logout")
 public class Logout extends HttpServlet {
 

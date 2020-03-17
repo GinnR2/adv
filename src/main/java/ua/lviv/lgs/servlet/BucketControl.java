@@ -17,7 +17,7 @@ import ua.lviv.lgs.service.BucketService;
 import ua.lviv.lgs.service.impl.BucketServiceImpl;
 
 /**
- * Servlet implementation class BucketControl
+ * delete bucket servlet
  */
 @WebServlet("/bucket")
 public class BucketControl extends HttpServlet {

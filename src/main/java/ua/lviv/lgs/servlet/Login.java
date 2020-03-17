@@ -17,6 +17,7 @@ import ua.lviv.lgs.dto.UserLogin;
 import ua.lviv.lgs.service.UserService;
 import ua.lviv.lgs.service.impl.UserServiceImpl;
 
+//login servlet
 @WebServlet("/Login")
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
