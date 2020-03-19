@@ -1,9 +1,9 @@
-  
 *target*
 *.jar
 *.war
 *.ear
 *.class
+*.war
 
 # eclipse specific git ignore
 *.pydevproject
